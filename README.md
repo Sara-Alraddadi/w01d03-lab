@@ -6,9 +6,12 @@ Example string: 'Sara'
 Expected Output: 'araS':
 
 ```
+// Solution 
+function alphabetOrder(name){
+  return name.split('').sort().join('');
+}
 
-
-alphabetOrder("hello");
+console.log(alphabetOrder("hello"));
 ```
 ---
 #### Exercise 2:
@@ -18,9 +21,12 @@ Example x = 12345;
 Expected Output: 54321
 
 ```
+// Solution 
+function reverseANumber(num){
+  return num.split('').reverse().join('');
+}
 
-
-reverseANumber(987654321);
+console.log(reverseANumber("987654321"));
 ```
 ---
 #### Exercise 3:
